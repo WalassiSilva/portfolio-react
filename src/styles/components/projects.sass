@@ -1,0 +1,45 @@
+@use '../variables'
+
+.container-projects
+    display: flex
+    flex-direction: column
+    gap: 3rem
+ 
+    .project
+        border-radius: .5rem
+        transition: all .3s ease
+        position: relative
+
+        &:hover
+            opacity: .8
+    
+    img
+        border-radius: 5px 5px 0 0 
+        max-width: 100%
+
+    .project-info
+        background-color: #040203
+        padding: 2rem
+        position: absolute
+        top: 0
+        height: 100%
+        width: 100% //erro
+        opacity: 0
+        transition: all .3s ease
+
+        &:hover
+            opacity: .8
+        
+        li
+            line-height: 1.5rem
+        
+        .git-page
+            padding: 1rem 0
+            font-size: 1rem
+            font-weight: 700
+
+    h3
+        text-align: center
+        color: #fff
+        margin: 1rem 0
+       
