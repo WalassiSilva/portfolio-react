@@ -5,8 +5,9 @@ import {
     DiNodejsSmall,
     DiReact,
     DiGit,
-    DiGithubBadge
+    DiGithubBadge,
 } from 'react-icons/di';
+import { BiLogoTypescript} from 'react-icons/bi'
 import '../styles/components/technologiescontainer.sass';
 
 const technologies = [
@@ -16,7 +17,7 @@ const technologies = [
 
     { id: "js", name: "JavaScript", icon: <DiJsBadge />, description: 'É uma linguagem interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acroba' },
 
-    {id: "ts", name: "TypeScript", icon: <DiJsBadge />, description: 'É uma linguagem de programação fortemente tipada, que se baseia em JavaScritp. TypeScript nos ajuda a evitar erros, ajuda no entendimento e na manutenção do código'},
+    {id: "ts", name: "TypeScript", icon: <BiLogoTypescript />, description: 'É uma linguagem de programação fortemente tipada, que se baseia em JavaScritp. TypeScript nos ajuda a evitar erros, ajuda no entendimento e na manutenção do código'},
 
     { id: "node", name: "Node.js", icon: <DiNodejsSmall />, description: 'Node.js é um ambiente de execução multi-plataforma em JavaScript que permite aos desenvolvedores produzirem aplicações para rede e server-side usando o JavaScript.' },
 

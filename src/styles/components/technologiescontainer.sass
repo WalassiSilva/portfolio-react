@@ -5,7 +5,7 @@
     margin-bottom: 1rem
 
     .technologies-grid
-        display: flex
+        display: flex 
         flex-wrap: wrap
         gap: 1.5rem
 
@@ -14,15 +14,19 @@
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
-            width: 45%
-            // min-width: 300px
+            width: 50%
             border-radius: variables.$card-border-radius
             flex-basis: 270px
-
+            margin: 0 auto            
+            display: block
+                
+            .tech-icon
+                text-align: center
 
             h3
                 color: variables.$text-color
-                margim-bottom: 1rem
+                margin: 1rem 0
+                text-align: center
             
             svg
                 font-size: 4rem
@@ -50,6 +54,7 @@
                 color: #e44d26             
         #github
             svg
-                color: #333        
-
-         
+                color: #333
+        #ts
+            svg
+                color:#3178c6

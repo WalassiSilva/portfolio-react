@@ -3,6 +3,7 @@ import Sidebar from './compoments/Sidebar';
 import MainContent from "./compoments/MainContent";
 
 import "./styles/components/app.sass"
+
 function App() {
 
   return (
