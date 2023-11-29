@@ -1,0 +1,41 @@
+@use '../variables'
+
+.container-projects
+    display: flex
+    flex-direction: column
+    gap: 3rem
+ 
+    .project
+        margin: 0 auto
+        border-radius: .5rem
+           
+    img
+        border-radius: 5px 5px 0 0 
+        max-width: 100%
+
+    .project-info
+        background-color: #040203
+        padding: 1rem
+        margin-bottom: 1rem
+        height: 100%
+        border: 1px solid #333
+        border-radius: variables.$card-border-radius
+        
+        li
+            line-height: 1.5rem
+        
+        .git-page
+            padding: 1rem 0
+            font-size: 1rem
+            font-weight: 700
+
+    h3
+        text-align: center
+        color: #fff
+        margin: 1rem 0
+    
+    .project-slider 
+        max-width: 100%
+        max-height: 50%
+       
+       
