@@ -16,7 +16,7 @@ const Sidebar = () => {
             <SocialNetworks />
             <InformationContainer />
             <a href="/files/cv.pdf" download="Walassi_Silva_cv.pdf" className="btn" target='_blank'>
-                Ver Currículo
+                Baixar Currículo
             </a>
         </aside>
     )
