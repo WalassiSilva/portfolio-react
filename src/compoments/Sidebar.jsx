@@ -4,9 +4,6 @@ import InformationContainer from './InformationContainer';
 
 import '../styles/components/sidebar.sass'
 
-import React from 'react';
-
-
 const Sidebar = () => {
     
     return (
