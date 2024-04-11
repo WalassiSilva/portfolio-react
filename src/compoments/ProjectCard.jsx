@@ -16,7 +16,7 @@ const ProjectCard = ({title, description, possibilities, technologies, link, pre
             ))
           }
         </ul>
-        <p><strong>Tecnologias usadas: {technologies}</strong></p>
+        <p><strong>Tecnologias usadas: {technologies.join(', ')}</strong></p>
         <p className='git-page'>🔗 Clique na imagem para ver o projeto</p>
 
         <a href={link} target="_blank" rel="noreferrer">

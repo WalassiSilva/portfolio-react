@@ -10,17 +10,17 @@ export const dataProjects = [
   {
     id: 1,
     title: 'Money Manager',
-    description: 'Money Manager é um projeto fullstack criado do rezo para gerenciar gastos e receitas de forma simples e eficiente através de gráficos e calendarios, filtros e buscas.',
+    description: 'Money Manager é um projeto fullstack criado do rezo (Frontend, Backend, Database) para gerenciar gastos e receitas de forma simples e eficiente através de gráficos e calendarios, filtros e buscas.',
     possibilities: [
       'Criação de transações',
       'Listagem de transações por data, nome e categoria',
       'Alteração e remoção de transações',
       'Acompanhar o patrimônio',
-      'Visualizar graficamente o suas despensas.',
+      'Visualizar graficamente suas despesas.',
       'Pesquisar por transações pelo nome.',
 
     ],
-    technologies: ['React', 'Node', 'Express', 'MongoDB', 'Git', 'Github'],
+    technologies: ['React', 'typescript', 'React Router Dom', 'Node', 'Express', 'PostgreSQL', 'Prima ORM', 'ESLint', 'Tailwind', ],
     link: 'https://github.com/WalassiSilva/money-manager',
     preview: moneyManagerGif
   },
@@ -50,7 +50,7 @@ export const dataProjects = [
       'Saber o que estou aprendendo.',
       'Ver meus projetos mais relevantes.',
     ],
-    technologies: ['React', 'SASS', 'Zod', 'Vite', 'React-icons'],
+    technologies: ['React', 'SASS', 'Vite', 'React-icons'],
     link: 'https://github.com/WalassiSilva/portfolio',
     preview: portfolioGif,
   },
@@ -59,7 +59,7 @@ export const dataProjects = [
     title: 'PokeApi',
     description: 'PokeApi é um projeto de busca de dados dos pokemons. Os dados são fornecidos pela Api do Pokemon.',
     possibilities: [
-      'esquisar por pokemons através do número ou nome.',
+      'Pesquisar por pokemons através do número ou nome.',
       'Acessar página interna com detalhes do pokemon.',
       'Filtrar pokemon pelo tipo ou nome.',
       'Mudar entre tema claro e escuro.',
