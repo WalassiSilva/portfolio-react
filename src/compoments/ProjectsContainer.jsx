@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import pokeapi from '../img/projects/poke-api.gif'
 import githubApi from '../img/projects/github-api.gif';
@@ -26,19 +26,19 @@ const ProjectContainer = () => {
                         <p> <strong>Tecnologias usadas:</strong> React, Styled Components, React Router Dom. </p>
                         <p className='git-page'>🔗 Clique na imagem para ver o projeto</p>
                     </div>
-                    <a href="https://pokedex-api-chi-two.vercel.app" target='_blank'>
+                    <a href="https://pokedex-api-chi-two.vercel.app" target='_blank' rel="noreferrer">
                         <img src={pokeapi} alt="nome do projeto" />
                     </a>
                 </div>
                 <div className="project">
                     <h3>GitHub User Api</h3>
                     <div className="project-info">
-                        <p>GitHub User Api é um projeto feito para buscar a informações dos usuários da plataforma "GitHub" através da Api. </p>
+                        <p>GitHub User Api é um projeto feito para buscar a informações dos usuários da plataforma <strong>GitHub</strong> através da Api. </p>
                         <p>Ao fazer a busca, é retornado o nome, foto, bio, seguidores, seguindo, os repositórios em formato de link e informações dos mesmos</p>
                         <p><strong>Tecnologias usadas:</strong> HTML, CSS, JavaScript, Api do GitHub</p>
                         <p className='git-page'>🔗 Clique na imagem para ver o projeto</p>
                     </div>
-                    <a href="https://walassisilva.github.io/github-users-api/" target='_blank'>
+                    <a href="https://walassisilva.github.io/github-users-api/" target='_blank' rel="noreferrer">
                         <img src={githubApi} alt="nome do projeto" />
                     </a>
                 </div>

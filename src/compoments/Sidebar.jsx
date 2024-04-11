@@ -8,7 +8,7 @@ import React from 'react';
 
 
 const Sidebar = () => {
-    
+
     return (
         <aside id="sidebar">
             <img src={Avatar} alt="Walassi Silva" />
@@ -19,6 +19,7 @@ const Sidebar = () => {
                 Ver Currículo
             </a>
         </aside>
+
     )
 };
 export default Sidebar;
