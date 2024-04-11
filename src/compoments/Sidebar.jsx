@@ -15,8 +15,8 @@ const Sidebar = () => {
             <p className="title">Desenvolvedor</p>
             <SocialNetworks />
             <InformationContainer />
-            <a href="../../src/files/cv.pdf" className="btn" target='_blank'>
-                Ver Currículo
+            <a href="/files/walassi_silva_cv.pdf" download="Walassi_Silva_cv.pdf" className="btn" target='_blank'>
+                Baixar Currículo
             </a>
         </aside>
 
