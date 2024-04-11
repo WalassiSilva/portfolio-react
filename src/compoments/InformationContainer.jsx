@@ -13,6 +13,7 @@ const InformationContainer = () => {
                     <p>(31) 98648-2092</p>
                 </div>
             </div>
+            
             <div className="info-card">
                 <AiOutlineMail id="email-icon" />
                 <div>
