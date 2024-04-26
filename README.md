@@ -5,7 +5,7 @@ Nele é possível saber um pouco sobre quem sou, minhas redes de contato, o que 
 
 ### Demonstração do projeto
 
-[<img src="./public/portfolio.gif" alt="visão geral do projeto">]
+<img src="./public/portfolio.gif" alt="visão geral do projeto">
 
 ## Tecnologias utilizadas
 
